@@ -1,27 +1,31 @@
 import React from 'react'
 import styled from 'styled-components'
+import Fade from 'react-reveal/Fade';
 
-function Section({ title, description, backgroundImg, leftBtnText, rightBtnText}) {
+function Section({ id, title, description, backgroundImg, leftBtnText, rightBtnText}) {
     return (
         <Wrap bgImage={ backgroundImg }>
-            <ItemText>
-                <h1>{ title }</h1>
-                <p>{ description }</p> 
-            </ItemText>
-
+            <Fade bottom>
+                <ItemText id={ id }>
+                    <h1 id="titulo">{ title }</h1>
+                    <p id="descripcion">{ description }</p> 
+                </ItemText>
+            </Fade>
             <Buttons>
-                <ButtonGroup>
-                    <LeftButton>
-                        { leftBtnText }
-                    </LeftButton>
+                <Fade bottom>
+                    <ButtonGroup>
+                        <LeftButton>
+                            { leftBtnText }
+                        </LeftButton>
 
-                    { rightBtnText && 
-                        <RightButton>
-                            { rightBtnText }
-                        </RightButton>
-                    }      
-                </ButtonGroup>
-                <DownArrow src="/images/down-arrow.svg" />
+                        { rightBtnText && 
+                            <RightButton>
+                                { rightBtnText }
+                            </RightButton>
+                        }      
+                    </ButtonGroup>
+                    <DownArrow src="/images/down-arrow.svg" />
+                </Fade>
             </Buttons>
 
         </Wrap>
@@ -51,6 +55,8 @@ const Wrap = styled.div`
 const ItemText = styled.div`
     padding-top: 15vh;
     text-align: center;
+    z-index: -1;
+    // font-weight: ;
 `
 
 const ButtonGroup = styled.div`
@@ -73,6 +79,7 @@ const LeftButton = styled.div`
     opacity: 0.85;
     text-transform: uppercase;
     font-size: 12px;
+    font-weight: 550;
     cursor: pointer;
     margin: 8px;
 `

@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/tesla-clon/static/css/main.1b624678.chunk.css",
+    "main.js": "/tesla-clon/static/js/main.893e37c9.chunk.js",
+    "main.js.map": "/tesla-clon/static/js/main.893e37c9.chunk.js.map",
+    "runtime-main.js": "/tesla-clon/static/js/runtime-main.32d29426.js",
+    "runtime-main.js.map": "/tesla-clon/static/js/runtime-main.32d29426.js.map",
+    "static/js/2.743f74e6.chunk.js": "/tesla-clon/static/js/2.743f74e6.chunk.js",
+    "static/js/2.743f74e6.chunk.js.map": "/tesla-clon/static/js/2.743f74e6.chunk.js.map",
+    "index.html": "/tesla-clon/index.html",
+    "static/css/main.1b624678.chunk.css.map": "/tesla-clon/static/css/main.1b624678.chunk.css.map",
+    "static/js/2.743f74e6.chunk.js.LICENSE.txt": "/tesla-clon/static/js/2.743f74e6.chunk.js.LICENSE.txt",
+    "static/media/accessories.027ada94.jpg": "/tesla-clon/static/media/accessories.027ada94.jpg",
+    "static/media/audio.93bbd962.jpg": "/tesla-clon/static/media/audio.93bbd962.jpg",
+    "static/media/connected.e908d655.jpg": "/tesla-clon/static/media/connected.e908d655.jpg",
+    "static/media/down-arrow.9b52668f.svg": "/tesla-clon/static/media/down-arrow.9b52668f.svg",
+    "static/media/game.80315756.jpg": "/tesla-clon/static/media/game.80315756.jpg",
+    "static/media/model-3.30651f79.jpg": "/tesla-clon/static/media/model-3.30651f79.jpg",
+    "static/media/model-s.b65171b9.jpg": "/tesla-clon/static/media/model-s.b65171b9.jpg",
+    "static/media/model-x.25937b94.jpg": "/tesla-clon/static/media/model-x.25937b94.jpg",
+    "static/media/model-y.30acb76a.jpg": "/tesla-clon/static/media/model-y.30acb76a.jpg",
+    "static/media/new-interior.16586851.jpg": "/tesla-clon/static/media/new-interior.16586851.jpg",
+    "static/media/solar-panel.d7d441d7.jpg": "/tesla-clon/static/media/solar-panel.d7d441d7.jpg",
+    "static/media/solar-roof.acfd9045.jpg": "/tesla-clon/static/media/solar-roof.acfd9045.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.32d29426.js",
+    "static/js/2.743f74e6.chunk.js",
+    "static/css/main.1b624678.chunk.css",
+    "static/js/main.893e37c9.chunk.js"
+  ]
+}

@@ -2,6 +2,8 @@ import React from 'react'
 import styled from 'styled-components'
 import Fade from 'react-reveal/Fade';
 
+import { downArrow } from './import';
+
 function Section({ id, title, description, backgroundImg, leftBtnText, rightBtnText}) {
     return (
         <Wrap bgImage={ backgroundImg }>
@@ -24,7 +26,7 @@ function Section({ id, title, description, backgroundImg, leftBtnText, rightBtnT
                             </RightButton>
                         }      
                     </ButtonGroup>
-                    <DownArrow src="/images/down-arrow.svg" />
+                    <DownArrow src={downArrow} />
                 </Fade>
             </Buttons>
 
@@ -36,7 +38,7 @@ export default Section
 
 // esta constante la modifiqué, originalmente la puse en background image del styled Wrap pero me arrojaba una advertencia para no usar
 // template literals anidadas. No estoy del todo seguro si debería ser una constante o variable.
-const bgImage = props => `url("/images/${props.bgImage}")`;
+const bgImage = props => `url("${props.bgImage}")`;
 
 const Wrap = styled.div`
     width: 100vw;
